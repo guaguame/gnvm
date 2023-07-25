@@ -1,0 +1,20 @@
+gnvm version                 查看gnvm版本信息
+gnvm config                  创建或跟新.gnvmrc文件
+gnvm ls                      查看下载过的node.js版本号
+gnvm install 版本号          下载指定版本号的node.js版本
+gnvm uninstall 版本号         删除指定版本号的node.js版本
+gnvm update latest           下载目前最新的node.js版本
+gnvm use 版本号               切换当前要使用的node.js版本
+gnvm npm global              下载与当前使用node.js版本相匹配的npm版本
+gnvm npm latest              下载最新的npm版本
+gnvm node-version            查询global 和latest(最新)的node.js版本
+
+where node                   查询node.js的安装目录
+node -v                      查询node.js的版本号
+npm -v                       查询npm的版本号
+————————————————
+版权声明：本文为CSDN博主「借鉴收藏家」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/weixin_46536395/article/details/126141916
+
+gnvm use 16.1.0   // 桌面应用端使用版本
+gnvm use 14.15.2   // 本地其余项目使用版本
